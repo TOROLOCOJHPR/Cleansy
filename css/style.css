@@ -1,0 +1,84 @@
+body,html{
+    font-size:10px;
+}
+/*-- tipografias --*/
+@font-face {font-family: Luna;src: url(/files/fonts/Luna.ttf);}
+@font-face {font-family: Reenie;src: url(/files/fonts/Reenie-beanie-regular.ttf);}
+@font-face {font-family: Century;src: url(/files/fonts/CenturyGothicRegular.ttf);}
+.ff-Luna{font-family: Luna;}
+.ff-Reenie{font-family: Reenie;}
+.ff-Century{font-family: Century;}
+/*-- menú --*/
+header{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+header a{
+    color:rgba(23, 51, 167, 0.75) !important;
+}
+header a:hover{
+    color:rgba(23, 51, 167, 1) !important;
+}
+/*-- index --*/
+#sliderPrincipal{
+    font-size:3.3rem;
+}
+#sliderPrincipal{
+    animation: sliderRight 15s ease infinite;
+}
+.imgSlider{
+    z-index: 1;
+}
+.item{
+    animation: sliderDown 15s ease infinite;
+    z-index: 2;
+}
+/*-- animaciones --*/
+@keyframes sliderRight{
+    0%{margin-left: 0%;}
+    40%{margin-left: 0%;}
+    50%{margin-left: -100%;}
+    90%{margin-left: -100%;}
+    100%{margin-left: 0%;}
+}
+@keyframes sliderDown{
+    /*inicia con index 2 y arriba del slider*/
+    0%{top: -50%;}
+    /*se posiciona en la parte inferior del slider y se mantiene*/
+    5%{top: 60%;}
+    30%{top: 60%;}
+    /*baja por debajo del slider para ocultarse y cambia su index a 0*/
+    35%{top: 110%; z-index: 2;}
+    40%{top: 110%; z-index: 0;}
+    /*regresa a su posición de inicio arriba del slider*/
+    46%{top: -50%; z-index: 0;}
+    /*cambia su index a 2 y se reinicia la animación*/
+    50%{top: -50%; z-index: 2;}
+    55%{top: 60%;}
+    80%{top: 60%;}
+    85%{top: 110%; z-index: 2;}
+    95%{top: 110%; z-index: 0;}
+    96%{top: -50%; z-index: 0;}
+    100%{top:-50%; z-index: 0;}
+}
+@keyframes sliderDownDos{
+    0%{}
+    60%{}
+    85%{}
+    90%{}
+    100%{}
+}
+/*-- media query --*/
+@media (min-width: 576px) {
+    body,html{font-size:12px;}
+}
+@media (min-width: 768px) {
+    body,html{font-size:14px;}
+    /*-- index --*/
+    #sliderPrincipal{font-size:4rem;}
+}
+@media (min-width: 992px) {
+    body,html{font-size:16px;}
+}
+@media (min-width: 1200px){
+    body,html{font-size:18px;}
+}
