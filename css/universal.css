@@ -58,6 +58,10 @@ body,html{width:100%;height:100vh;display: block;}
     .fs-2{font-size: 2rem;}
     .fs-2-5{font-size: 2.5rem;}
     .fs-3{font-size: 3rem;}
+    .fs-3-5{font-size: 3.5rem;}
+    .fs-4{font-size: 4rem;}
+    .fs-4-5{font-size: 4.5rem;}
+    .fs-5{font-size: 5rem;}
     /*color*/
     .p-text-gold{color:rgb(132, 111, 56);}
     .p-text-black{color:black;}
@@ -68,6 +72,10 @@ body,html{width:100%;height:100vh;display: block;}
     .text-capitalize{text-transform: capitalize;}
     /*first-letter uppercase*/
     .text-first-uppercase:first-letter{color:red;}
+    /*under-line*/
+    .t-under-line-black{text-decoration: underline black;}
+    .t-under-line-red{text-decoration: underline red;}
+    .t-under-line-purple{text-decoration: underline rgb(128, 0, 128);}
 /*links*/
 a{color:white;}
 a:hover{color:white;text-decoration:none;}
