@@ -3,14 +3,16 @@ body,html{
 }
 /*-- tipografias --*/
 @font-face {font-family: Luna;src: url(/files/fonts/Luna.ttf);}
-@font-face {font-family: Reenie;src: url(/files/fonts/Reenie-beanie-regular.ttf);}
-@font-face {font-family: Century;src: url(/files/fonts/CenturyGothicRegular.ttf);}
+/*@font-face {font-family: Reenie;src: url(/files/fonts/Reenie-beanie-regular.ttf);}*/
+/*@font-face {font-family: Century;src: url(/files/fonts/CenturyGothicRegular.ttf);}*/
 .ff-Luna{font-family: Luna;}
-.ff-Reenie{font-family: Reenie;}
-.ff-Century{font-family: Century;}
+/*.ff-Reenie{font-family: Reenie;}*/
+/*.ff-Century{font-family: Century;}*/
+/*-- colores --*/
+.bg-footer{background-color:#58D3F7}
 /*-- menú --*/
 header{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);box-shadow: black 0px 1px 10px;
 }
 header a{
     color:rgba(23, 51, 167, 0.75) !important;
@@ -19,8 +21,9 @@ header a:hover{
     color:rgba(23, 51, 167, 1) !important;
 }
 /*-- index --*/
+.slider{ height:75vh;}
 #sliderPrincipal{
-    font-size:3.3rem;
+    font-size:1.5rem;line-height:3rem;
 }
 #sliderPrincipal{
     animation: sliderRight 15s ease infinite;
@@ -70,14 +73,17 @@ header a:hover{
 /*-- media query --*/
 @media (min-width: 576px) {
     body,html{font-size:12px;}
+    #sliderPrincipal{font-size:2rem;line-height:4.5rem;}
+    .slider{ height:90vh;}
 }
 @media (min-width: 768px) {
     body,html{font-size:14px;}
     /*-- index --*/
-    #sliderPrincipal{font-size:4rem;}
 }
 @media (min-width: 992px) {
     body,html{font-size:16px;}
+    
+    
 }
 @media (min-width: 1200px){
     body,html{font-size:18px;}
