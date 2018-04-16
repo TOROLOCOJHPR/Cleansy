@@ -1,15 +1,9 @@
-<?php 
-    //titulo del documento
-    $titulo ="Inicio-Cleansy";
-?>
+<?php $titulo ="Inicio-Cleansy"?>
 <!DOCTYPE html>
 <html lang="es">
-<?php
-    //header
-    include 'include/header.php' ;
-?>
+<?php include 'include/header.php'?>
     <body>
-        <?php include 'mod/menu.php';?>
+        <?php include 'mod/menu.php'?>
         <!-- slider -->
         <div class="slider w-100 position-relative text-white ff-Luna t-shadow-2-black" style="overflow:hidden;">
             <!-- slide -->
@@ -67,9 +61,6 @@
                 </div>
             </div>
         </div>
-    <?php
-        include 'mod/footer.php'; 
-        include 'include/jsFiles.php';
-    ?>
+    <?php include 'mod/footer.php';include 'include/jsFiles.php'?>
     </body>
 <html

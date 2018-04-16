@@ -1,34 +1,6 @@
 <footer class="bg-primary text-white fs-1-2 py-3">
     <!-- enlaces -->
-    <div class="w-100 text-center"><a class="btn-link text-white" href="/">INICIO</a> | <a class="btn-link text-white" href="">NUESTRA EMPRESA</a> | <a class="btn-link text-white" href="">PRODUCTOS<a> | <a class="btn-link text-white" href="">CONTACTO</a></div>
-    <div class="row mx-0 text-left" hidden>
-        <div class="col-auto mx-auto">
-            <span>INICIO</span>
-            <ul class="list-group">
-                <li class=""><a href="">INICIO</a>
-            </ul>
-        </div>
-        <div class="col-auto mx-auto">
-            <span>NUESTRA EMPRESA</span>
-            <ul class="list-group">
-                <li class=""><a href="">NUESTRA EMPRESA</a>
-            </ul>
-        </div>
-        <div class="col-auto mx-auto">
-            <span>PRODUCTOS</span>
-            <ul class="list-group">
-                <li class="list-group-flush"><a href="">HOGAR</a>
-                <li class=""><a href="">OFICINA</a>
-                <li class=""><a href="">AUTO</a>
-            </ul>
-        </div>
-        <div class="col-auto mx-auto">
-            <span>CONTACTO</span>
-            <ul class="list-group">
-                <li class=""><a href="">CONTACTO</a>
-            </ul>
-        </div>
-    </div>
+    <div class="w-100 text-center"><a class="btn-link text-white" href="/">INICIO</a> | <a class="btn-link text-white" href="/nuestraEmpresa">NUESTRA EMPRESA</a> | <a class="btn-link text-white" href="">PRODUCTOS<a> | <a class="btn-link text-white" href="">CONTACTO</a></div>
     <!-- redes sociales -->
     <div class="w-100 text-center mt-4">
         <a class="" href="">
