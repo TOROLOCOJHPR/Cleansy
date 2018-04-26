@@ -10,7 +10,7 @@ body,html{
 /*.ff-Reenie{font-family: Reenie;}*/
 .ff-Century{font-family: Century;}
 /*-- colores --*/
-.bg-footer{background-color:#58D3F7}
+.push-menu{padding-top:50px}
 /*-- menú --*/
 header{background-color:rgba(255, 255, 255, 0.7);box-shadow:black 0px 1px 10px}
 header a{color:rgba(23, 51, 167, 0.75)!important}
@@ -49,7 +49,7 @@ header a:hover{color:rgba(23, 51, 167, 1) !important}
     100%{top:-50%;z-index:0}
 }
 .b-cover{background-position:left!important}
-.push-menu{margin-top:50px}
+.bg-footer{background-color:#58D3F7}
 /*-- media query --*/
 @media (min-width:576px){
     body,html{font-size:12px}
@@ -62,7 +62,7 @@ header a:hover{color:rgba(23, 51, 167, 1) !important}
     /*-- index --*/
     .b-cover{background-position:center!important}
     header{height:80px}
-    .push-menu{margin-top:80px}
+    .push-menu{padding-top:80px}
     
 }
 @media (min-width:992px){

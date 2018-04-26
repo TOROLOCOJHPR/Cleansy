@@ -18,7 +18,7 @@
             </li>
             <!-- productos -->
             <li class="nav-item">
-                <a class="nav-link" href="#">PRODUCTOS</a>
+                <a class="nav-link" href="/productos">PRODUCTOS</a>
             </li>
             <!-- contacto -->
             <li class="nav-item">

@@ -1,6 +1,6 @@
 <footer class="bg-primary text-white fs-1-2 py-3">
     <!-- enlaces -->
-    <div class="w-100 text-center"><a class="btn-link text-white" href="/">INICIO</a> | <a class="btn-link text-white" href="/nuestraEmpresa">NUESTRA EMPRESA</a> | <a class="btn-link text-white" href="">PRODUCTOS<a> | <a class="btn-link text-white" href="">CONTACTO</a></div>
+    <div class="w-100 text-center"><a class="btn-link text-white" href="/">INICIO</a> | <a class="btn-link text-white" href="/nuestraEmpresa">NUESTRA EMPRESA</a> | <a class="btn-link text-white" href="/productos">PRODUCTOS<a> | <a class="btn-link text-white" href="">CONTACTO</a></div>
     <!-- redes sociales -->
     <div class="w-100 text-center mt-4">
         <svg width="10px" fill="#FFF" viewBox="0 0 264 512">
