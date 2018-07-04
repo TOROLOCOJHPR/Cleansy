@@ -29,16 +29,17 @@
                 </div>
                 <div class="col-12 col-md-6 pt-2">
                     <h3 class="text-center text-md-left ff-Century p-text-gold">Contactanos</h3>
-                    <form class="form-row"method="post">
+                    <form id="form" class="form-row" method="post">
                         <div class="form-group col-10 mx-auto mx-md-0">
                         <input class="form-control mt-1" type="text" placeholder="Nombre" name="nombre" required/>
-                        <input class="form-control mt-1" type="text" placeholder="Correo" name="email" required/>
+                        <input class="form-control mt-1" type="email" placeholder="Correo" name="email" required/>
                         <input class="form-control mt-1" type="text" placeholder="Teléfono" name="tel" required/>
                         <input class="form-control mt-1" type="text" placeholder="Asunto" name="asunto" required/>
                         <textarea class="form-control mt-1" placeholder="Comentarios" name="mensaje" rows="8" required></textarea>
                         <div class="row mx-0"><input class="btn mt-1 ml-auto" type="submit"></div>
                         </div>
                     </form>
+                    <div id="bio"></div>
                     <hr class="d-block d-md-none"/>
                 </div>
             </div>
@@ -50,5 +51,6 @@
             </div>
         </div>
         <?php include 'mod/footer.php';include 'include/jsFiles.php'?>
+        <script src="/js/ajax.js"></script>
     </body>
 <html
