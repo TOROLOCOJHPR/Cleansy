@@ -1,60 +1,93 @@
 body,html{
-    font-size:10px;
+    font-size:16px;
 }
-.b-cover,.b-cover-md,.b-cover-sm{background-size:cover;background-repeat:no-repeat}
+.b-cover,.b-cover-md,.b-cover-sm{
+    background-size:cover;background-repeat:no-repeat
+}
 /*-- tipografias --*/
-@font-face {font-family: Luna;src: url(/files/fonts/Luna.ttf);}
+/* @font-face {font-family: Luna;src: url(/files/fonts/Luna.ttf);} */
 /*@font-face {font-family: Reenie;src: url(/files/fonts/Reenie-beanie-regular.ttf);}*/
-@font-face {font-family: Century;src: url(/files/fonts/CenturyGothicRegular.ttf);}
-.ff-Luna{font-family: Luna;}
+@font-face {
+    font-family: Century;src: url(/files/fonts/CenturyGothicRegular.ttf);
+}
+@font-face {
+    font-family: Myriad;src: url(/files/fonts/Myriad-Pro.ttf);
+}
+.ff-Luna{
+    font-family: Luna;
+}
 /*.ff-Reenie{font-family: Reenie;}*/
-.ff-Century{font-family: Century;}
+.ff-Century{
+    font-family: Century;
+}
 /*-- colores --*/
-.push-menu{padding-top:50px}
+.push-menu{
+    padding-top:80px
+}
 /*-- menú --*/
-header{background-color:rgba(255, 255, 255, 0.7);box-shadow:black 0px 1px 10px}
-header a{color:rgba(23, 51, 167, 0.75)!important}
-header a:hover{color:rgba(23, 51, 167, 1) !important}
+header{
+    background-color:rgb(255, 255, 255);
+    box-shadow:black 0px 1px 10px
+}
+header a{
+    color:rgba(23, 51, 167, 0.75)!important
+}
+header a:hover{
+    color:rgba(23, 51, 167, 1) !important
+}
 /*-- index --*/
-.slider{ height:75vh}
-#sliderPrincipal{font-size:1.5rem;line-height:3rem;animation:sliderRight 15s ease infinite}
-.imgSlider{z-index:1}
-.item{animation:sliderDown 15s ease infinite;z-index:2}
-/*-- animaciones --*/
-@keyframes sliderRight{
-    0%{margin-left:0%}
-    40%{margin-left:0%}
-    50%{margin-left:-100%}
-    90%{margin-left:-100%}
-    100%{margin-left:0%}
+.slider{ 
+    height:60vh;font-family: Myriad;
+    font-weight: bold
 }
-@keyframes sliderDown{
-    /*inicia con index 2 y arriba del slider*/
-    0%{top:-50%}
-    /*se posiciona en la parte inferior del slider y se mantiene*/
-    5%{top:60%}
-    30%{top:60%}
-    /*baja por debajo del slider para ocultarse y cambia su index a 0*/
-    35%{top:110%;z-index:2}
-    40%{top:110%;z-index:0}
-    /*regresa a su posición de inicio arriba del slider*/
-    46%{top:-50%;z-index:0}
-    /*cambia su index a 2 y se reinicia la animación*/
-    50%{top:-50%;z-index:2}
-    55%{top:60%}
-    80%{top:60%}
-    85%{top:110%;z-index:2}
-    95%{top:110%;z-index:0}
-    96%{top:-50%;z-index:0}
-    100%{top:-50%;z-index:0}
+#sliderPrincipal{
+    font-size:1.5rem;
+    line-height:3rem;
+    animation:sliderRight 20s cubic-bezier(0.215, 0.610, 0.355, 1) infinite
 }
-.b-cover{background-position:left!important}
-.bg-footer{background-color:#58D3F7}
+.imgSlider{
+    z-index:1
+}
+.carousel-caption{
+    width:100%;
+    height: 100%;
+    left: 0;
+    right:0;
+    bottom:0;
+    padding:0 1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#botones img{
+    width:100%;
+    border-radius:10px;
+    transition: transform .3s;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+#botones img:hover{
+    transform:scale(1.05);
+    transition: transform .3s;
+}
+.tarjeta-producto{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    height:100%;
+    width:75%;
+}
+.tarjeta-producto img{
+    width:100%;
+}
+.b-cover{
+    background-position:left!important
+}
+.bg-footer{
+    background-color:#58D3F7
+}
 /*-- media query --*/
 @media (min-width:576px){
     body,html{font-size:12px}
     #sliderPrincipal{font-size:2rem;line-height:4.5rem}
-    .slider{ height:90vh}
+    .slider{ height:70vh}
     .b-cover{background-position:right!important}
 }
 @media (min-width:768px){
@@ -63,10 +96,23 @@ header a:hover{color:rgba(23, 51, 167, 1) !important}
     .b-cover{background-position:center!important}
     header{height:80px}
     .push-menu{padding-top:80px}
-    
+    #botones .col-md-3{
+        max-width:20%;
+    }
+    #botones img:hover{
+        transform:scale(1.12);
+    }
 }
 @media (min-width:992px){
     body,html{font-size:16px}
+    .carousel-caption{
+        width: 70%;
+        padding: 1.5rem;
+        align-items: flex-start;
+    }
+    .carousel-caption h2{
+        font-size: 2.8rem;
+    }
 }
 @media (min-width:1200px){
     body,html{font-size:18px}
