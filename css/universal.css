@@ -1,7 +1,9 @@
 body,html{width:100%;height:100vh;display:block}
 .print{border:1px dashed purple}
-.mh-90{min-height: 90vh}
-.mh-100{min-height: 100vh}
+.mh-70{min-height:70vh}
+.mh-80{min-height:80vh}
+.mh-90{min-height:90vh}
+.mh-100{min-height:100vh}
 [class*='c-align']{display:flex}
 .c-align-middle{justify-content:center;align-items:center}
 .c-align-horizontal{justify-content:center}
@@ -20,7 +22,7 @@ body,html{width:100%;height:100vh;display:block}
 .bg-cover-top{background-position:top}
 .bg-cover-bottom{background-position:bottom}
 .bg-cover-left{background-position:left}
-.bg-cover-right{background-position-x:right;background-position-y:bottom}
+.bg-cover-right{background-position-x:right;background-position-y:center}
 .bg-cover-center{background-position:center}
 
 /*colores opacidos*/

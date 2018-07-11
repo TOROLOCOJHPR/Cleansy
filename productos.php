@@ -143,7 +143,6 @@
 <?php include 'include/header.php'?>
     <body>
         <?php include 'mod/menu.php'?>
-        <div class="mh-90 push-menu">
             <h2 class="text-center py-3"><?php echo $categoria?></h2>
             <div class="row mx-0  justify-content-center">
             <?php 

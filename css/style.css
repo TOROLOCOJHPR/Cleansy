@@ -22,7 +22,7 @@ body,html{
 }
 /*-- colores --*/
 .push-menu{
-    padding-top:80px
+    padding-top:40px
 }
 /*-- menú --*/
 header{
@@ -88,12 +88,12 @@ header a:hover{
     body,html{font-size:12px}
     #sliderPrincipal{font-size:2rem;line-height:4.5rem}
     .slider{ height:70vh}
-    .b-cover{background-position:right!important}
+    /* .b-cover{background-position:right!important} */
 }
 @media (min-width:768px){
     body,html{font-size:14px}
     /*-- index --*/
-    .b-cover{background-position:center!important}
+    /* .b-cover{background-position:center!important} */
     header{height:80px}
     .push-menu{padding-top:80px}
     #botones .col-md-3{

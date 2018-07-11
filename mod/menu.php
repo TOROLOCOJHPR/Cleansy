@@ -1,4 +1,4 @@
-<header class="fixed-top fs-1-2 ff-Century opacity-white-75">
+<header class="fixed-top fs-1-2 ff-Century">
     <nav class="navbar navbar-expand-md navbar-light py-3 py-sm-2 py-md-1 h-100">
         <!-- boton menu responsivo -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuResponsivo" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
