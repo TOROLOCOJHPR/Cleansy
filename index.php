@@ -12,20 +12,20 @@
                     <div class="carousel-inner h-100">
                         <div class="carousel-item active h-100">
                             <img class="d-block w-100 h-100 img-cover-right" src="/img/productos-de-limpieza.jpg" alt="productos de limpieza">
-                            <div class="carousel-caption">
-                                <h2 class="text-shadow">La mejor calidad en productos de limpieza</h2>
+                            <div class="carousel-caption carousel-caption-text-1">
+                                <h2 class="text-shadow-2-black">La mejor calidad en productos de limpieza</h2>
                             </div>
                         </div>
                         <div class="carousel-item h-100">
                             <img class="d-block w-100 h-100 img-cover" src="/img/productos-de-limpieza-hogar.jpg" alt="productos de limpieza hogar">
-                            <div class="carousel-caption">
-                                <h2 class="text-shadow">Paquetes hechos a tu medida</h2>
+                            <div class="carousel-caption w-100">
+                                <h2 class="text-shadow-2-black">Paquetes hechos a tu medida</h2>
                             </div>
                         </div>
                         <div class="carousel-item h-100">
                             <img class="d-block w-100 h-100 img-cover" src="/img/productos-liquidos.jpg" alt="productos de limpieza liquidos">
-                            <div class="carousel-caption">
-                                <h2 class="text-shadow">Todo lo que necesitas y un poco más</h2>
+                            <div class="carousel-caption carousel-caption-text-3 w-100">
+                                <h2 class="text-shadow-2-black">Todo lo que necesitas y un poco más</h2>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
 
         <!-- botones -->
         <div class="w-100 position-relative text-center">
-            <h2 class="py-4">PRODUCTOS PARA</h2>
+            <h2 class="py-4 ff-Century">PRODUCTOS PARA</h2>
             <div id="botones" class="row mx-0 justify-content-center">
 
                 <div class="col-12 col-sm-6 col-md-3 p-3">

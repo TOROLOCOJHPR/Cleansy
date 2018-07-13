@@ -10,7 +10,10 @@
                 <div class="d-block opacity-white p-2">
                     <h2 class="py-2">Conoce Cleansy</h2>
                     <p class="fs-1-2">
-                        Somos una empresa dedicada a la fabricación, comercialización, y distribución de una extensa línea de productos de aseo y limpieza para el hogar y  diversos giros empresariales. Nacidos en Culiacán, Sinaloa actualmente contamos con 2 sucursales abiertas y más de 1000 productos disponibles para todo tipo de público.
+                        Somos una empresa dedicada a la fabricación, comercialización, y distribución de una extensa línea de productos de aseo y limpieza para el hogar y  diversos giros empresariales. Nacidos en Culiacán, Sinaloa.
+                        <br>
+                        <br>
+                        Actualmente contamos con 2 sucursales abiertas y más de 1000 productos disponibles para todo tipo de público.
                         <br>
                         <br>
                         Nuestro principal objetivo es ofrecer una gama más extensa de productos con la mejor calidad que siempre nos distingue.
