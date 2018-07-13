@@ -1,5 +1,5 @@
 <?php 
-    $titulo="Productos";
+    $titulo="Para tu empresa";
     $categoria = "";
     if(isset($_GET['categoria'])){
         $categoria = $_GET['categoria'];
@@ -12,12 +12,12 @@
         <?php 
             include 'mod/menu.php';
             if($categoria != ""){
-                include 'mod/productos/productos.php';
+                include 'mod/para tu empresa/productos.php';
             }else{
         ?>
             <div class="mh-80">
-        <?php
-            include 'mod/productos/lista.php';
+        <?php  
+                include 'mod/para tu empresa/lista.php';
         ?>
             </div>
         <?php

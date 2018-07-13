@@ -20,6 +20,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="/productos">PRODUCTOS</a>
             </li>
+            <!-- productos -->
+            <li class="nav-item">
+                <a class="nav-link" href="/paratuempresa">PARA TU EMPRESA</a>
+            </li>
             <!-- contacto -->
             <li class="nav-item">
                 <a class="nav-link" href="/contacto">CONTACTO</a>

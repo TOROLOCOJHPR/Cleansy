@@ -5,8 +5,9 @@
     <body>
         <?php include 'mod/menu.php'?>
 
-        <!-- slider -->
+        <!-- bloque principal -->
         <div class="row mx-0">
+            <!-- slider -->
             <div class="slider col-12 col-md-7 p-0 position-relative text-white ff-Luna t-shadow-2-black" style="overflow:hidden;">
                 <div id="carousel-principal" class="carousel slide h-100" data-ride="carousel">
                     <div class="carousel-inner h-100">
@@ -52,76 +53,12 @@
             <div class="slider col-12 col-md-5 bg-secondary">
                 
             </div><!-- promoción -->
-        </div>
 
-        <!-- botones -->
-        <div class="w-100 position-relative text-center">
-            <h2 class="py-4 ff-Century">PRODUCTOS PARA</h2>
-            <div id="botones" class="row mx-0 justify-content-center">
+        </div><!-- bloque principal -->
+        <?php 
+            include 'mod/productos/lista.php';
+        ?>
 
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=sala">
-                        <img src="/img/iconos/sala.jpg" alt="productos de sala">
-                        <p class="pt-3 mb-0">Sala</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=cocina">
-                        <img src="/img/iconos/cocina.jpg" alt="productos de cocina">
-                        <p class="pt-3 mb-0">Cocina</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=comedor">
-                        <img src="/img/iconos/comedor.jpg" alt="productos de comedor">
-                        <p class="pt-3 mb-0">Comedor</p>
-                    </a>
-                </div>
-                <!-- ficticios -->
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=recamara">
-                        <img src="/img/iconos/recamara.jpg" alt="productos de recamara">
-                        <p class="pt-3 mb-0">Recamara</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=baño">
-                        <img src="/img/iconos/baño.jpg" alt="productos de baño">
-                        <p class="pt-3 mb-0">Baño</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=pisos">
-                        <img src="/img/iconos/pisos.jpg" alt="productos de pisos">
-                        <p class="pt-3 mb-0">Pisos</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=muebles">
-                        <img src="/img/iconos/muebles.jpg" alt="productos de muebles">
-                        <p class="pt-3 mb-0">Muebles</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=auto">
-                        <img src="/img/iconos/auto.jpg" alt="productos de auto">
-                        <p class="pt-3 mb-0">Auto</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=exteriores">
-                        <img src="/img/iconos/exteriores.jpg" alt="productos de exteriores">
-                        <p class="pt-3 mb-0">Exteriores</p>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-3 p-3">
-                    <a class="w-50 d-block text-dark mx-auto" href="/productos?categoria=lavado">
-                        <img src="/img/iconos/lavado.jpg" alt="productos de lavado">
-                        <p class="pt-3 mb-0">Lavado</p>
-                    </a>
-                </div>
-    
-            </div><!-- row -->
         </div>
 
     <?php include 'mod/footer.php';include 'include/jsFiles.php'?>
